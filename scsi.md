@@ -38,7 +38,7 @@
                                           /dev/sda1 )后可以挂载。
 **利用集群进行挂载，添加集群资源data，如图:**
 
-![](picture/scsi/Screenshot from 2017-12-04 20-48-25.png)
+![](http://mdpicture-1253499256.file.myqcloud.com/Screenshot%20from%202017-12-04%2020-48-25.png)
 
 **用clustat命令查看集群状态,如图:**
 
