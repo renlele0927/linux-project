@@ -1,4 +1,4 @@
-# scsi文件共享
+# RHCS集群上用scsi实现文件共享
 
 ## 实验环境：*iptable and selinux disabled*
 *在RHCS配置上，再增加一台提供磁盘的服务器（172.25.4.3）*
