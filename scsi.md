@@ -1,9 +1,9 @@
-#scsi文件共享
+scsi文件共享
 
-##实验环境：*iptable and selinux disabled*
+实验环境：*iptable and selinux disabled*
 *在RHCS配置上，再增加一台提供磁盘的服务器（172.25.4.3）*
     
-####开始配置：（只在172.25.4.3）
+开始配置：（只在172.25.4.3）
 一.服务端:
 
     1.首先添加一块磁盘：（通过virt-manager管理器上添加）
