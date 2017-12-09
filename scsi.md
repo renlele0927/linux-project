@@ -15,12 +15,12 @@
     # vim /etc/tgt/targets.conf
         ...
         # Sample target with one LUN only. Defaults to allow access for all initiators:
-        \<target iqn.2017-05.com.example:server.target1>
+        target iqn.2017-05.com.example:server.target1>
         backing-store /dev/vdb          #指定那块盘
         initiator-address 172.25.4.1    #指定那个IP可以登录使用 
         initiator-address 172.25.4.2        
-        \</target>
-        ...
+        /target>`
+        ...
 
     # /etc/init.d/tgtd start   ##开启服务
     # tgt-admin -s             ##查看是否配置成功
