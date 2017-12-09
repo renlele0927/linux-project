@@ -42,7 +42,7 @@
 
 **用clustat命令查看集群状态,如图:**
 
-![](picture/scsi/Screenshot from 2017-12-04 20-49-50.png)
+![](http://mdpicture-1253499256.file.myqcloud.com/Screenshot%20from%202017-12-04%2020-49-50.png)
 
 **然后，重新启动apahce:**
 
