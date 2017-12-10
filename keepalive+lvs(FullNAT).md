@@ -75,7 +75,7 @@ VIP:172.25.4.100
     default=0       ##0为第一个选项
     ...
 
-####2.lvs安装:
+#### 2.lvs安装:
 
     # cd lvs-fullnat-synproxy/tools/keepalived/
     # yum install -y popt-devel
