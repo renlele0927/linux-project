@@ -40,11 +40,11 @@
                                           /dev/sda1 )后可以挂载。
 **利用集群进行挂载，添加集群资源data，如图:**
 
-![](http://mdpicture-1253499256.file.myqcloud.com/Screenshot%20from%202017-12-04%2020-48-25.png)
+![1](http://mdpicture-1253499256.file.myqcloud.com/RHCS/SCSI1.png)
 
 **用clustat命令查看集群状态,如图:**
 
-![](http://mdpicture-1253499256.file.myqcloud.com/Screenshot%20from%202017-12-04%2020-49-50.png)
+![2](http://mdpicture-1253499256.file.myqcloud.com/RHCS/SCSI2.png)
 
 **然后，重新启动apahce:**
 
