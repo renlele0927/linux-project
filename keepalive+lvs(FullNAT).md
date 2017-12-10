@@ -20,7 +20,7 @@ VIP:172.25.4.100
     为了解决上述问题，我们在DR上添加了一种新的转发模式：FullNat，该模式和NAT模式的区别是：
     Packet IN时，除了做DNAT，还做SNAT（用户ip-内网ip），从而实现DR-RS间可以跨vlan通讯，
     RS只需要连接到内网。
-![](http://mdpicture-1253499256.file.myqcloud.com/Screenshot%20from%202017-12-10%2020-07-52.png)
+![](http://mdpicture-1253499256.file.myqcloud.com/LVS/lvs%28FullNAT%29.png)
 
 
 ## VS配置:
