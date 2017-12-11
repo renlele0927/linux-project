@@ -13,7 +13,7 @@
     Layer4:如果您理解了Layer3的方式，Layer4就容易了。Layer4主要以TCP端口的状态来决定服务器工作正常与否。如web server的服务端口一般是80，如果Keepalived检测到80端口没有启动，则Keepalived将把这台服务器从服务器群中剔除。
     Layer7：Layer7就是工作在具体的应用层了，比Layer3,Layer4要复杂一点，在网络上占用的带宽也要大一些。Keepalived将根据用户的设定检查服务器程序的运行是否正常，如果与用户的设定不相符，则Keepalived将把服务器从服务器群中剔除。
 
-![](http://mdpicture-1253499256.file.myqcloud.com/Keepalived/keepalived1.GFI)
+![1](http://mdpicture-1253499256.file.myqcloud.com/Keepalived/keepalived1.png)
 
 **上图是Keepalived的功能体系结构，大致分两层：用户空间（user space）和内核空间（kernel space）。**
 
